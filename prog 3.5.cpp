@@ -6,7 +6,7 @@ int main()
     float fvar=35.87;
     cout<<"intvar= "<<ivar<<endl;
     cout<<"flaotvar= "<<fvar<<endl;
-    cout<<"float(intvar)= "<<float(ivar)r<<endl;
+    cout<<"float(intvar)= "<<float(ivar)<<endl;
     cout<<"int(flaotvar)= "<<int(fvar)<<endl;
     return 1;
 )
