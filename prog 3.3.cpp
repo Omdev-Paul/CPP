@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 class sample
 {
@@ -33,5 +32,4 @@ int main()
 	s_ptr->set(25,'A');
 	s_ptr->display();
 	delete s_ptr;
-	getch();
 }
