@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class time
+class Time
 {
     int hours;
     int minutes;
@@ -16,10 +16,10 @@ class time
         cout<< minutes << " minutes "<<endl;
     }
 
-    void sum(time, time);
+    void sum(Time, Time);
 };
 
-void time :: sum(time t1, time t2)
+void Time :: sum(Time t1, Time t2)
 {
     minutes = t1.minutes + t2.minutes;
     hours = minutes/60;
@@ -29,7 +29,7 @@ void time :: sum(time t1, time t2)
 
 int main()
 {
-    time T1,T2,T3;
+    Time T1,T2,T3;
     T1.gettime(2,45);
     T2.gettime(3,30);
 
