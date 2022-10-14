@@ -25,4 +25,4 @@ class sample
 
         return 0;
     }
-}
+
